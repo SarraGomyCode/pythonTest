@@ -1,0 +1,15 @@
+demo_dic = {"1":"5", "qa" : "url"}
+print(demo_dic)
+x=demo_dic.keys()
+print(x)
+print(demo_dic.items())
+print(demo_dic.values())
+demo_dic.update({"test2" : "url2"})
+print(demo_dic)
+demo_dic_copy = demo_dic.copy()
+print(demo_dic_copy)
+print(demo_dic.get("qa"))
+demo_dic ["test"] = "sarra"
+print(demo_dic)
+demo_dic.pop("test")
+print(demo_dic)
