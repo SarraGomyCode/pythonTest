@@ -11,7 +11,7 @@ class SeleniumDemoExample :
          screenshot_example.screenshot(".\\test.png")
          screenshot_example.click()
          time.sleep(4)
-         driver.get_screenshot_as_png(r"C:\Users\sayari\Desktop\sarra\pythonTest\example_selenium_demo\error.png")
+         driver.get_screenshot_as_png()
          driver.save_screenshot(".\\sarra.png")
 
 selenium_first_example = SeleniumDemoExample()

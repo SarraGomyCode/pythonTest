@@ -7,7 +7,7 @@ class SeleniumDemoExample :
          driver = webdriver.Chrome()
          driver.get("https://www.yatra.com/")
          driver.maximize_window()
-         new_link = driver.find_element(By.XPATH,"//img[@alt='Upto 13% OFF (max. Rs.10,000) + No Cost EMI on 3 or 6 months']")
+         new_link = driver.find_element(By.XPATH,"//img[@alt='Flat 15% OFF (up to Rs.1,900)']")
          new_link.click()
          time.sleep(4)
          handle_windows  = driver.current_window_handle
