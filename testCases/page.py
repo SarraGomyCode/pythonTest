@@ -14,7 +14,7 @@ class MainPage(BasePage):
         element = self.driver.find_element(MainPageLocators.GO_BUTTON)
         element.click()
 
-class SearchPageResults (self):
+class SearchPageResults :
 
     def is_results_find (self) :
 
